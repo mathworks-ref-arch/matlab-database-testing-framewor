@@ -1,0 +1,9 @@
+classdef MsSqlServer2019 < dbtest.fixtures.MsSqlServer
+    
+    % Copyright 2019-2020 The MathWorks, Inc.
+    
+    properties (Constant,Access = protected)
+        ServerVersion = '2019-latest';
+    end
+    
+end
